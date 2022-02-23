@@ -38,9 +38,7 @@ class MainWindow(QMainWindow):
 
 
     def navigate_home(self):
-        self.browser.setUrl(QUrl('http://programming hero.com'))
-        self.
-
+        self.browser.setUrl(QUrl('http://programming hero.com')
 
     def navigate_to_url(self):
         url =self.url_bar.text()
