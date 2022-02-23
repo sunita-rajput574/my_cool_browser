@@ -1,4 +1,4 @@
-# my_cool_browser
+# My_Cool_Browser
 Chrome is Slow.Sometimes I might be frustrated with google chrome. That t's why I create my own Browser with 40 lines of python.This is super fun python project using PyQt5.
    In this project I use pycharm for making our own browser.To start with this project we defininetly need to install python and would using python code editor name pycharm .
 Then click on the new project and give the name of our project. I give the name of the project i.e my cool browser and press enter . Once pycharm is starting  then go back 
