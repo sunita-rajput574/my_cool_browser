@@ -38,9 +38,8 @@ class MainWindow(QMainWindow):
 
 
     def navigate_home(self):
-        self.browser.setUrl(QUrl('http:\\programming hero.com'))
-
-        self.browser.urlchanged.connect(self.update_url)
+        self.browser.setUrl(QUrl('http://programming hero.com'))
+        self.
 
 
     def navigate_to_url(self):
@@ -49,7 +48,7 @@ class MainWindow(QMainWindow):
 
     def update_url(self,q):
         self.url_bar.setText(q.toString())
-
+        self.browser.urlchanged.connect(self.update_url)
 
 app=QApplication(sys.argv)
 QApplication.setApplicationName('My Cool Browser')
