@@ -1,0 +1,46 @@
+# my_cool_browser
+# my_cool_browser
+Chrome is Slow.Sometimes I might be frustrated with google chrome. That t's why I create my own Browser with 40 lines of python.This is super fun python project using PyQt5.
+   In this project I use pycharm for making our own browser.To start with this project we defininetly need to install python and would using python code editor name pycharm .
+Then click on the new project and give the name of our project. I give the name of the project i.e my cool browser and press enter . Once pycharm is starting  then go back 
+to google and ask to find something for us i.e to search for pip PyQt5. Then google will tell us to go to the website (pypi.org.project.pyqt5). Click on pip install PyQt5
+   PyQt5 is a very powerful application development package . now we will go back to pycharm for creating virtual environment.Now when venv is created    press cntrl A
+then Backspace and click on this project so that we have a big space to write our code click on the terminal and press cntrl+V i.e we would be used pip to install PyQt5 package
+press enter PyQt5 package is install in Pycharm .Now we want to import this project and some packages for creating awsome browser.
+     When we import everything then we  create a classand give some name and pass it then prss enter. Then inside this class we firstly createa constructor. constructor is nothing 
+ but a function . Now  Pycharm will suggest that what we should write , press enter , call something assuper and this will create a super connection with our parent class. 
+ After this my browser is on full screen mode so we create a very very literal class and add some functionalities inside it .Now we create an app and then pass some  system 
+ argument thats why it asking the argument Vand then we import sys we need not to install this becoz this is a built in function in python after this we can call the app name 
+ and then create a window and execute it. Then we wrote 10n lines of codes and if we click on the run button browser will open like a window thenwe add some functions in it .
+    Now to add some functions like back btn, forward btn, reload btn, home btn, google  the main search engine.So to do this import some more packages (PyQt5.QtWebEngineWidgets) 
+ and ( PyQtWebEngine).After installation of the packages we tell our browser that we wnat to see some web view .Now to set this set url in the form Qurl and now want to import
+ everything from PyQt5.Qt core now write any name of website in url for this write a single line of code then run that code then we will see an empty window and after some time
+ a search engine google is shown there now we can search anything in it. This is a fully functional google in our  own browser. Now we add much more functions to it to make it
+ more practical bt for this we wrote few lines of code to add some controls in our browser like navigation bar, status bar .that is in our created browser there is some space in 
+ between  search engine (google) and the upper portion of the browser for this create a navbar and add some toolbar in our navbar after this run our created browser then there is
+ a block shown in between upper portion and google .this block is known as a search bar.Then we add back btn , forward btn , reload btn and home btn in it .
+      For to do this declare a variable then some action should be done , name that action an dpass the reference this current class to somebody for triggered that .
+ Now in that case we need to do some connection with the browser then go to the back side and add back btn to the navbar then run the browser back btn will show near the 
+ search bar and it works. 
+      Again for forward btn the above process of creation of back btn is reapeated only difference is that replace back with forward and the whole process is same. Now the two 
+  main btns of the browser is created.Then now for the creation of reload btn process is again as same as back and forward btn creation process. There is a super fun in 
+  creation of btns.If we want to reload anything it is very quick process reloading means refreshing the same again and again.relaod btn is created in our browser and working as well.
+       Now in my browser i want to craete a home btn and it is very common in all browsers becoz if we click on it it will take it to a specific website that we define in our code .
+  The creation of home btn is also same as above btns the difference is that if we click on home btn then we go to the home page mention in our code that is programming hero 
+  also known as home page. Ths should be define differently i.e self.navigate_home and add some action to the navbar .After this create navigate_home function then we 
+  tell the browser ,pass the url by default any browser name then run the code browser will open and navigate any website .Now when we click on home the  home page of our
+  browser is open i.e our previous search.This is the fun part of our browser .
+      Now in the next section we would be adding something in our search box that mens we need to edit something an dwould create an instant attribute.Qline edit means editv a
+  stuff in a single line an after than tell the navbar we need to add some widget and that widget would be self.url_bar.This will do nothing in our browser so we hook some 
+  functionality with it.we need to go to url bar and tell if anybody press return in that case you need to connect to a specific thing  and this specific thing is another 
+  thing  becoz we need to capture whatever return over here and then call the browser to go so thats why we will create another method i.e self.navigate_to_url 
+  similar to navigate_home create a function navigate_to_url.Now we want the text whatever is return there in the Url_bar and thats why we create a instance attribute so 
+  we can access it from anywhere else so we need the url written over there and that url get some text after this set some urland also pass some url after calling the browser.
+  Then run the browser in search bar type some website name its run if coding is right . There is some hook up there i.e when we press the back btn the website changes 
+  bt in search box there is no change in website's url i.e is not updated so to fix this we have to capture some url change i.ewe tell the the browser that if url change 
+  thenconnect to some work i.e self.update_urlcreate this method ,add some parameter we need to know which parameter is updated inside the url to call the url.bar   and
+  then set the text and that text would be q coming like string bt we can be little bit sure to this conversion .Url_bar is nothing the search box.Then  again run the browser 
+  by default we have google but if we search any website 's url in search box then it will take us to that website i.e all the core functions of the url is working.
+       So finally we do some cool things in our custom browser we have a back , forward , reload , home and also search bar in it. This is like a super power in this world .This is a 
+       super crazy, super fun, and super powerful  python code .we just created our awsome browser ............
+  
